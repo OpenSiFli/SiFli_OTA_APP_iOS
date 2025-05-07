@@ -1,0 +1,6 @@
+framework module SifliOCore {
+  umbrella header "SifliOCore.h"
+  export *
+
+  module * { export * }
+}
