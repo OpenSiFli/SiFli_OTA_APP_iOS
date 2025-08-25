@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/SifliOCore.framework/SifliOCore</key>
 		<data>
-		msd9NT+NJR0r1S7t16T7t0nr8gg=
+		lNfWns4uA71C1OvcRT/sBKo2XZ4=
 		</data>
 		<key>Frameworks/SifliOCore.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Headers/SFOtaV3FileInfo.h</key>
 		<data>
-		6vX9OtmBB5WCyMBG251BuNNZiNE=
+		BeQaJO8la7RCmpvmABvP1akpsIM=
 		</data>
 		<key>Headers/SFOtaV3ImageID.h</key>
 		<data>
-		ySThH3e+3Vn0KsJryLA7ODY1awo=
+		Jk3yAZleARR4QPY4TG4XnCN0Yio=
 		</data>
 		<key>Headers/SFOtaV3ImageIDUtil.h</key>
 		<data>
@@ -48,13 +48,21 @@
 		<data>
 		QPVLdEa/BsROigAK0WiXdKtBSYU=
 		</data>
+		<key>Headers/SFPreviewImageConfigration.h</key>
+		<data>
+		AElavYQxHuvFu83ly9b4sIV6YJY=
+		</data>
+		<key>Headers/SFPreviewImageManager.h</key>
+		<data>
+		wz1Om8/5WCnKU3X05TXQUAIdLvk=
+		</data>
 		<key>Headers/SifliOtaSdk.h</key>
 		<data>
-		LqbqfN9hc6Ny84yHtx0TJp6kdBM=
+		u3em/R1NY8xe5M+x4leXWFS4s6s=
 		</data>
 		<key>Headers/VersionConstant.h</key>
 		<data>
-		Eo+YVreJ/fnjyw1vOmeY1mZ6c/8=
+		o0uIFSw63qEWB7AsH4AD5MBJdlM=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -82,11 +90,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			msd9NT+NJR0r1S7t16T7t0nr8gg=
+			lNfWns4uA71C1OvcRT/sBKo2XZ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			1lXkq/ST8ykKm1pvPVkfcXDbK6dF8XvXvSvqGouRcIw=
+			Vt2QivsVjWVIx86wenjqrb5aEOqnMLSfIkikeWbv+l0=
 			</data>
 		</dict>
 		<key>Frameworks/SifliOCore.framework/_CodeSignature/CodeResources</key>
@@ -137,22 +145,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6vX9OtmBB5WCyMBG251BuNNZiNE=
+			BeQaJO8la7RCmpvmABvP1akpsIM=
 			</data>
 			<key>hash2</key>
 			<data>
-			LXVaJWRlEAFmPuBX4iaZvo5G9Q35KU2pIxO9JiTz5Lw=
+			pSw8KIdhTlaYiKbCjJbw0u7LbuVEraoVmO/ZS55+EMI=
 			</data>
 		</dict>
 		<key>Headers/SFOtaV3ImageID.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ySThH3e+3Vn0KsJryLA7ODY1awo=
+			Jk3yAZleARR4QPY4TG4XnCN0Yio=
 			</data>
 			<key>hash2</key>
 			<data>
-			vmKyGmvzVxJngWt5O5VPg/1g/MMFWFuvqxx7TqJ4oN4=
+			W1i/xQvTyLbIMq59VDM2nz3JB7QL28oWv6NrGoE5WNQ=
 			</data>
 		</dict>
 		<key>Headers/SFOtaV3ImageIDUtil.h</key>
@@ -188,26 +196,48 @@
 			j5lSVAiMugPu4przFLqaqXzxuWxDIWRT7WSs2GM1lfE=
 			</data>
 		</dict>
+		<key>Headers/SFPreviewImageConfigration.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AElavYQxHuvFu83ly9b4sIV6YJY=
+			</data>
+			<key>hash2</key>
+			<data>
+			kOvdvTRrZPrQ8gTw10Hazu80G36bO0nZkHVwXTBQTU4=
+			</data>
+		</dict>
+		<key>Headers/SFPreviewImageManager.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wz1Om8/5WCnKU3X05TXQUAIdLvk=
+			</data>
+			<key>hash2</key>
+			<data>
+			98vxGlSXZogIuT7GczCtPJV5s1lb+R71JSNTtd/I7q0=
+			</data>
+		</dict>
 		<key>Headers/SifliOtaSdk.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LqbqfN9hc6Ny84yHtx0TJp6kdBM=
+			u3em/R1NY8xe5M+x4leXWFS4s6s=
 			</data>
 			<key>hash2</key>
 			<data>
-			iRK1bUqTasf7kDJjEnkrB66CKSrqHX0Q6f4tVVlKciY=
+			PFs3lSNrQKOtZfhhF5TGbSW8ntd5X2tc9WmllEpt1+I=
 			</data>
 		</dict>
 		<key>Headers/VersionConstant.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Eo+YVreJ/fnjyw1vOmeY1mZ6c/8=
+			o0uIFSw63qEWB7AsH4AD5MBJdlM=
 			</data>
 			<key>hash2</key>
 			<data>
-			CRUlxNgpOGamP5ONrKzI+c42mUEbhpkNNWNX5yZAgvw=
+			eorvVx4+FF+Z7Q8uic8lljE70s0jrz42Vx7M7+Wdj8E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

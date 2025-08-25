@@ -23,3 +23,5 @@ FOUNDATION_EXPORT const unsigned char SifliOtaSdkVersionString[];
 #import <SifliOtaSdk/SFOtaV3DevCode.h>
 #import <SifliOtaSdk/SFOtaV3ImageIDUtil.h>
 #import <SifliOtaSdk/VersionConstant.h>
+#import <SifliOtaSdk/SFPreviewImageConfigration.h>
+#import <SifliOtaSdk/SFPreviewImageManager.h>

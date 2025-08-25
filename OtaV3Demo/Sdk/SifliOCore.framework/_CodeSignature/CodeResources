@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/FpsCounter.h</key>
+		<data>
+		OTTDLyDdwk7CTa1LP524mowbWsc=
+		</data>
 		<key>Headers/SFBleCoreManager.h</key>
 		<data>
 		6t9al+U1Ajm7TkE/qosROj7RdLI=
@@ -14,7 +18,7 @@
 		</data>
 		<key>Headers/SFBleShell.h</key>
 		<data>
-		djkxuhWJvGdN64HLZm7etnR4KeM=
+		SSTUNeLS6w6xggP6AjYkQxyBU8o=
 		</data>
 		<key>Headers/SFCBPeripheral.h</key>
 		<data>
@@ -86,7 +90,7 @@
 		</data>
 		<key>Headers/SifliOCore.h</key>
 		<data>
-		J3h2RvH4BN1iZUSOZ+8p6as6dbY=
+		Scz/vDp4WxhWD2laytdfIaBok14=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -99,6 +103,17 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/FpsCounter.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OTTDLyDdwk7CTa1LP524mowbWsc=
+			</data>
+			<key>hash2</key>
+			<data>
+			A0JnlzRtj2mFV2uatY6DT4PdAQLTd/h4a1zJa8djQPQ=
+			</data>
+		</dict>
 		<key>Headers/SFBleCoreManager.h</key>
 		<dict>
 			<key>hash</key>
@@ -125,11 +140,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			djkxuhWJvGdN64HLZm7etnR4KeM=
+			SSTUNeLS6w6xggP6AjYkQxyBU8o=
 			</data>
 			<key>hash2</key>
 			<data>
-			arrqrdWfofwv+u0zvhUJRdqS7rC0/ikV3769u1ste/U=
+			htVZiZQy1GU1DzdYFtH8XYDy23mfY5IRcMtjZG23h60=
 			</data>
 		</dict>
 		<key>Headers/SFCBPeripheral.h</key>
@@ -323,11 +338,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			J3h2RvH4BN1iZUSOZ+8p6as6dbY=
+			Scz/vDp4WxhWD2laytdfIaBok14=
 			</data>
 			<key>hash2</key>
 			<data>
-			sdTas5v4F/JMt/4MXMmVzGLpMHc7iyqZ8xoAENI050w=
+			eqXk647lbAMVHxSvyOcgI5SdIJKaxc1x03c1F9mJ+cs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

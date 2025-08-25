@@ -18,11 +18,12 @@ typedef NS_ENUM(NSUInteger, SFOtaV3ImageID) {
     SFOtaV3ImageIDNorRootOrNandLang = 5,
     SFOtaV3ImageIDNorOtaManagerOrNandRing = 6,
     SFOtaV3ImageIDNorTinyFontOrNandRoot = 7,
-    SFOtaV3ImageIDNandMusic = 8,
+    SFOtaV3ImageIDNorFtabOrNandMusic = 8,
     SFOtaV3ImageIDNandDyn = 9,
-    SFOtaV3ImageIDNandNym = 10
+    SFOtaV3ImageIDNandNym = 10,
+    SFOtaV3ImageIDNandFtab = 11
 };
-
+static const NSUInteger kSFOtaV3ImageIDMax = SFOtaV3ImageIDNandFtab;
 
 
 NS_ASSUME_NONNULL_END

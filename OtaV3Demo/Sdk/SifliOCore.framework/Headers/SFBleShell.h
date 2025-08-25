@@ -11,7 +11,7 @@
 #import <SifliOCore/SFModuleBase.h>
 
 NS_ASSUME_NONNULL_BEGIN
-static NSString * const kOCoreVersion = @"1.0.5";
+static NSString * const kOCoreVersion = @"1.0.8";
 typedef NS_ENUM(NSUInteger, SFBleShellStatus) {
     //空闲
     SFBleShellStatusNone = 0,

@@ -22,7 +22,9 @@ typedef NS_ENUM(NSUInteger, SFOtaV3Type) {
     SFOtaV3TypeFirmwareManager = 11,//固件 ota manager
     SFOtaV3TypeSifliApp = 12,//SifliGuiBuilder app
     SFOtaV3TypeSifliAppRes = 13,//SifliGuiBuilder app 拓展资源
-    SFOtaV3TypeSifliAppWidget = 14//SifliGuiBuilder app 拓展组件
+    SFOtaV3TypeSifliAppWidget = 14,//SifliGuiBuilder app 拓展组件
+    SFOtaV3TypePythonApp =15,
+    SFOtaV3TypePreviewNav = 17//地图投屏预览
 };
 
 typedef NS_ENUM(NSUInteger, SFOtaV3DfuFileType) {

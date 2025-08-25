@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         self.window = UIWindow.init(frame: UIScreen.main.bounds)
-        let firstVC = OTAV3MainVC.init(nibName: "OTAV3MainVC", bundle: Bundle.main)
+        let firstVC = HomeViewController.init(nibName: "HomeViewController", bundle: Bundle.main)
         let navVC = UINavigationController.init(rootViewController: firstVC)
         navVC.setNavigationBarHidden(true, animated: false)
         self.window?.rootViewController = navVC

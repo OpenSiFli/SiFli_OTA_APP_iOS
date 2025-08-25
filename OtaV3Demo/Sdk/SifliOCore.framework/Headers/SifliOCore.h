@@ -32,4 +32,5 @@ FOUNDATION_EXPORT const unsigned char SifliOCoreVersionString[];
 #import <SifliOCore/SFResult.h>
 #import <SifliOCore/SFStringUtil.h>
 #import <SifliOCore/SFSysTool.h>
+#import <SifliOCore/FPSCounter.h>
 //#import <SifliOCore/NSData+Sumary.h>

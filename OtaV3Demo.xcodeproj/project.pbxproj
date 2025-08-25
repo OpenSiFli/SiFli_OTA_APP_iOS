@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1807A05D2E5C5EF6000C8823 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1807A05C2E5C5EF6000C8823 /* HomeViewController.xib */; };
+		1807A05E2E5C5EF6000C8823 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807A05B2E5C5EF6000C8823 /* HomeViewController.swift */; };
+		1807A0622E5C6203000C8823 /* NorOfflineOTAMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807A0602E5C6203000C8823 /* NorOfflineOTAMainVC.swift */; };
+		1807A0632E5C6203000C8823 /* NorOfflineOTAMainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1807A0612E5C6203000C8823 /* NorOfflineOTAMainVC.xib */; };
+		1807A0642E5C62C3000C8823 /* SifliOTAManagerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FEA1F22E5C533400CD6D6A /* SifliOTAManagerSDK.framework */; };
 		181CAA762D34A4B400212E8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181CAA752D34A4B400212E8B /* AppDelegate.swift */; };
 		181CAA7A2D34A4B400212E8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181CAA792D34A4B400212E8B /* ViewController.swift */; };
 		181CAA7D2D34A4B400212E8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181CAA7B2D34A4B400212E8B /* Main.storyboard */; };
@@ -54,6 +59,8 @@
 		181CAB2F2D34C9FD00212E8B /* ConsoleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181CAB2E2D34C9FD00212E8B /* ConsoleCell.swift */; };
 		187A1EEB2D3757C8007AA20B /* SifliOCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187A1EE92D3757C8007AA20B /* SifliOCore.framework */; };
 		187A1EEC2D3757C8007AA20B /* SifliOtaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187A1EEA2D3757C8007AA20B /* SifliOtaSDK.framework */; };
+		18FEA1F42E5C535400CD6D6A /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FEA1EC2E5C530200CD6D6A /* Zip.framework */; };
+		18FEA1F52E5C535400CD6D6A /* Zip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18FEA1EC2E5C530200CD6D6A /* Zip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +80,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		18FEA1F62E5C535400CD6D6A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				18FEA1F52E5C535400CD6D6A /* Zip.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1807A05B2E5C5EF6000C8823 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1807A05C2E5C5EF6000C8823 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		1807A0602E5C6203000C8823 /* NorOfflineOTAMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorOfflineOTAMainVC.swift; sourceTree = "<group>"; };
+		1807A0612E5C6203000C8823 /* NorOfflineOTAMainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NorOfflineOTAMainVC.xib; sourceTree = "<group>"; };
 		181CAA722D34A4B400212E8B /* OtaV3Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtaV3Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181CAA752D34A4B400212E8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		181CAA792D34A4B400212E8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +170,8 @@
 		181CAB2E2D34C9FD00212E8B /* ConsoleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleCell.swift; sourceTree = "<group>"; };
 		187A1EE92D3757C8007AA20B /* SifliOCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SifliOCore.framework; sourceTree = "<group>"; };
 		187A1EEA2D3757C8007AA20B /* SifliOtaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SifliOtaSDK.framework; sourceTree = "<group>"; };
+		18FEA1EC2E5C530200CD6D6A /* Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Zip.framework; sourceTree = "<group>"; };
+		18FEA1F22E5C533400CD6D6A /* SifliOTAManagerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SifliOTAManagerSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +179,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1807A0642E5C62C3000C8823 /* SifliOTAManagerSDK.framework in Frameworks */,
+				18FEA1F42E5C535400CD6D6A /* Zip.framework in Frameworks */,
 				187A1EEC2D3757C8007AA20B /* SifliOtaSDK.framework in Frameworks */,
 				187A1EEB2D3757C8007AA20B /* SifliOCore.framework in Frameworks */,
 			);
@@ -174,6 +203,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1807A05A2E5C5E86000C8823 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1807A05B2E5C5EF6000C8823 /* HomeViewController.swift */,
+				1807A05C2E5C5EF6000C8823 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1807A05F2E5C61BE000C8823 /* OTANorOffline */ = {
+			isa = PBXGroup;
+			children = (
+				1807A0602E5C6203000C8823 /* NorOfflineOTAMainVC.swift */,
+				1807A0612E5C6203000C8823 /* NorOfflineOTAMainVC.xib */,
+			);
+			path = OTANorOffline;
+			sourceTree = "<group>";
+		};
 		181CAA692D34A4B400212E8B = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +244,7 @@
 		181CAA742D34A4B400212E8B /* OtaV3Demo */ = {
 			isa = PBXGroup;
 			children = (
+				1807A05A2E5C5E86000C8823 /* Home */,
 				181CAB082D34C3AA00212E8B /* Utils */,
 				181CAB052D34C36100212E8B /* Components */,
 				181CAAFA2D34C25E00212E8B /* OTAV3 */,
@@ -233,6 +281,8 @@
 		181CAAA52D34A4F700212E8B /* Sdk */ = {
 			isa = PBXGroup;
 			children = (
+				18FEA1F22E5C533400CD6D6A /* SifliOTAManagerSDK.framework */,
+				18FEA1EE2E5C530200CD6D6A /* Zip */,
 				187A1EE92D3757C8007AA20B /* SifliOCore.framework */,
 				187A1EEA2D3757C8007AA20B /* SifliOtaSDK.framework */,
 			);
@@ -326,6 +376,7 @@
 		181CAAFA2D34C25E00212E8B /* OTAV3 */ = {
 			isa = PBXGroup;
 			children = (
+				1807A05F2E5C61BE000C8823 /* OTANorOffline */,
 				181CAB212D34C9AA00212E8B /* OTAFileListVC */,
 				181CAB132D34C6E700212E8B /* SearchDevice */,
 				181CAAFB2D34C25E00212E8B /* OTAV3MainVC.swift */,
@@ -419,6 +470,14 @@
 			path = OTAFileListCell;
 			sourceTree = "<group>";
 		};
+		18FEA1EE2E5C530200CD6D6A /* Zip */ = {
+			isa = PBXGroup;
+			children = (
+				18FEA1EC2E5C530200CD6D6A /* Zip.framework */,
+			);
+			path = Zip;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -429,6 +488,7 @@
 				181CAA6E2D34A4B400212E8B /* Sources */,
 				181CAA6F2D34A4B400212E8B /* Frameworks */,
 				181CAA702D34A4B400212E8B /* Resources */,
+				18FEA1F62E5C535400CD6D6A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -529,8 +589,10 @@
 				181CAB2B2D34C9AA00212E8B /* OTAFileListVC.xib in Resources */,
 				181CAB2A2D34C9AA00212E8B /* OTAFileListCell.xib in Resources */,
 				181CAA7F2D34A4B500212E8B /* Assets.xcassets in Resources */,
+				1807A0632E5C6203000C8823 /* NorOfflineOTAMainVC.xib in Resources */,
 				181CAA7D2D34A4B400212E8B /* Main.storyboard in Resources */,
 				181CAB022D34C25E00212E8B /* OTAV3MainVC.xib in Resources */,
+				1807A05D2E5C5EF6000C8823 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,8 +622,10 @@
 				181CAB102D34C49A00212E8B /* QProgressBar.swift in Sources */,
 				181CAAE82D34C15700212E8B /* MJPropertyType.m in Sources */,
 				181CAAEC2D34C15700212E8B /* MJExtensionConst.m in Sources */,
+				1807A05E2E5C5EF6000C8823 /* HomeViewController.swift in Sources */,
 				181CAA7A2D34A4B400212E8B /* ViewController.swift in Sources */,
 				181CAAF12D34C15700212E8B /* MJFoundation.m in Sources */,
+				1807A0622E5C6203000C8823 /* NorOfflineOTAMainVC.swift in Sources */,
 				181CAAEE2D34C15700212E8B /* NSObject+MJClass.m in Sources */,
 				181CAB282D34C9AA00212E8B /* OTAFileListVC.swift in Sources */,
 				181CAB122D34C50100212E8B /* SFLog.swift in Sources */,
@@ -774,6 +838,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/OtaV3Demo/Sdk",
+					"$(PROJECT_DIR)/OtaV3Demo/Sdk/Zip",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OtaV3Demo/Info.plist;
@@ -811,6 +876,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/OtaV3Demo/Sdk",
+					"$(PROJECT_DIR)/OtaV3Demo/Sdk/Zip",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OtaV3Demo/Info.plist;

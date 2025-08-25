@@ -13,7 +13,7 @@ class OtaV3ImageFileInfoCell: UITableViewCell, LMJDropdownMenuDataSource,LMJDrop
     let offsetTextField = UITextField.init()
     let menu = LMJDropdownMenu.init()
     
-    private let options:[(SFOtaV3ImageID,String)] = [(.hcpu,"HCPU0"),(.lcpu, "LCPU1"),(.lcpuPatch, "LCPU_PATCH2"),(.norResOrNandPic,"norResOrNandPic3"),(.norFontOrNandFont,"norFontOrNandFont4"),(.norRootOrNandLang,"norRootOrNandLang5"),(.norOtaManagerOrNandRing,"norOtaManagerOrNandRing6"),(.norTinyFontOrNandRoot,"norTinyFontOrNandRoot7"),(.nandMusic,"nandMusic8"),(.nandDyn,"nandDyn9"),(.nandNym,"nandNym10")]
+    private let options:[(SFOtaV3ImageID,String)] = [(.hcpu,"HCPU0"),(.lcpu, "LCPU1"),(.lcpuPatch, "LCPU_PATCH2"),(.norResOrNandPic,"norResOrNandPic3"),(.norFontOrNandFont,"norFontOrNandFont4"),(.norRootOrNandLang,"norRootOrNandLang5"),(.norOtaManagerOrNandRing,"norOtaManagerOrNandRing6"),(.norTinyFontOrNandRoot,"norTinyFontOrNandRoot7"),(.norFtabOrNandMusic,"nandMusic8"),(.nandDyn,"nandDyn9"),(.nandNym,"nandNym10")]
     
     var infos:OtaV3ImageFileItem?{
         didSet{
