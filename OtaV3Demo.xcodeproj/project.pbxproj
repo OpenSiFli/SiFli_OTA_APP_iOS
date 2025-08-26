@@ -11,7 +11,7 @@
 		1807A05E2E5C5EF6000C8823 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807A05B2E5C5EF6000C8823 /* HomeViewController.swift */; };
 		1807A0622E5C6203000C8823 /* NorOfflineOTAMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807A0602E5C6203000C8823 /* NorOfflineOTAMainVC.swift */; };
 		1807A0632E5C6203000C8823 /* NorOfflineOTAMainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1807A0612E5C6203000C8823 /* NorOfflineOTAMainVC.xib */; };
-		1807A0642E5C62C3000C8823 /* SifliOTAManagerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FEA1F22E5C533400CD6D6A /* SifliOTAManagerSDK.framework */; };
+		18139CDA2E5D4748001C0386 /* SifliOTAManagerSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 18139CD92E5D4748001C0386 /* SifliOTAManagerSDK */; };
 		181CAA762D34A4B400212E8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181CAA752D34A4B400212E8B /* AppDelegate.swift */; };
 		181CAA7A2D34A4B400212E8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181CAA792D34A4B400212E8B /* ViewController.swift */; };
 		181CAA7D2D34A4B400212E8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181CAA7B2D34A4B400212E8B /* Main.storyboard */; };
@@ -59,8 +59,6 @@
 		181CAB2F2D34C9FD00212E8B /* ConsoleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181CAB2E2D34C9FD00212E8B /* ConsoleCell.swift */; };
 		187A1EEB2D3757C8007AA20B /* SifliOCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187A1EE92D3757C8007AA20B /* SifliOCore.framework */; };
 		187A1EEC2D3757C8007AA20B /* SifliOtaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187A1EEA2D3757C8007AA20B /* SifliOtaSDK.framework */; };
-		18FEA1F42E5C535400CD6D6A /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FEA1EC2E5C530200CD6D6A /* Zip.framework */; };
-		18FEA1F52E5C535400CD6D6A /* Zip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18FEA1EC2E5C530200CD6D6A /* Zip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,7 +85,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				18FEA1F52E5C535400CD6D6A /* Zip.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,8 +167,6 @@
 		181CAB2E2D34C9FD00212E8B /* ConsoleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleCell.swift; sourceTree = "<group>"; };
 		187A1EE92D3757C8007AA20B /* SifliOCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SifliOCore.framework; sourceTree = "<group>"; };
 		187A1EEA2D3757C8007AA20B /* SifliOtaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SifliOtaSDK.framework; sourceTree = "<group>"; };
-		18FEA1EC2E5C530200CD6D6A /* Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Zip.framework; sourceTree = "<group>"; };
-		18FEA1F22E5C533400CD6D6A /* SifliOTAManagerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SifliOTAManagerSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,10 +174,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1807A0642E5C62C3000C8823 /* SifliOTAManagerSDK.framework in Frameworks */,
-				18FEA1F42E5C535400CD6D6A /* Zip.framework in Frameworks */,
 				187A1EEC2D3757C8007AA20B /* SifliOtaSDK.framework in Frameworks */,
 				187A1EEB2D3757C8007AA20B /* SifliOCore.framework in Frameworks */,
+				18139CDA2E5D4748001C0386 /* SifliOTAManagerSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,8 +275,6 @@
 		181CAAA52D34A4F700212E8B /* Sdk */ = {
 			isa = PBXGroup;
 			children = (
-				18FEA1F22E5C533400CD6D6A /* SifliOTAManagerSDK.framework */,
-				18FEA1EE2E5C530200CD6D6A /* Zip */,
 				187A1EE92D3757C8007AA20B /* SifliOCore.framework */,
 				187A1EEA2D3757C8007AA20B /* SifliOtaSDK.framework */,
 			);
@@ -470,14 +462,6 @@
 			path = OTAFileListCell;
 			sourceTree = "<group>";
 		};
-		18FEA1EE2E5C530200CD6D6A /* Zip */ = {
-			isa = PBXGroup;
-			children = (
-				18FEA1EC2E5C530200CD6D6A /* Zip.framework */,
-			);
-			path = Zip;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -567,6 +551,9 @@
 				Base,
 			);
 			mainGroup = 181CAA692D34A4B400212E8B;
+			packageReferences = (
+				18139CD82E5D4748001C0386 /* XCRemoteSwiftPackageReference "SifliOTAManagerSDK" */,
+			);
 			productRefGroup = 181CAA732D34A4B400212E8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1019,6 +1006,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		18139CD82E5D4748001C0386 /* XCRemoteSwiftPackageReference "SifliOTAManagerSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OpenSiFli/SifliOTAManagerSDK.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.33;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		18139CD92E5D4748001C0386 /* SifliOTAManagerSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18139CD82E5D4748001C0386 /* XCRemoteSwiftPackageReference "SifliOTAManagerSDK" */;
+			productName = SifliOTAManagerSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 181CAA6A2D34A4B400212E8B /* Project object */;
 }

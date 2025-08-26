@@ -1,0 +1,24 @@
+{
+  "originHash" : "a1c641b06b57e402c6f31be1f62e0aed3c77c9d6792b1c7ce816cf420d8641c6",
+  "pins" : [
+    {
+      "identity" : "sifliotamanagersdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OpenSiFli/SifliOTAManagerSDK.git",
+      "state" : {
+        "revision" : "4892a0e1b5aa907811f6f35ae5302c21a94bd697",
+        "version" : "1.2.33"
+      }
+    },
+    {
+      "identity" : "zip",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/marmelroy/Zip.git",
+      "state" : {
+        "revision" : "67fa55813b9e7b3b9acee9c0ae501def28746d76",
+        "version" : "2.1.2"
+      }
+    }
+  ],
+  "version" : 3
+}
