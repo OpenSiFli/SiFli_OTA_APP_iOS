@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/OpenSiFli/SifliOTAManagerSDK.git",
       "state" : {
-        "revision" : "4892a0e1b5aa907811f6f35ae5302c21a94bd697",
-        "version" : "1.2.33"
+        "revision" : "83ad83bc2a2e50ac21f4a070e8750c4e256576ba",
+        "version" : "1.2.35"
       }
     },
     {
