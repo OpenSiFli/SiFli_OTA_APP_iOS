@@ -1,6 +1,0 @@
-framework module SifliOtaSDK {
-  umbrella header "SifliOtaSdk.h"
-  export *
-
-  module * { export * }
-}

@@ -1,22 +1,40 @@
 {
-  "originHash" : "a1c641b06b57e402c6f31be1f62e0aed3c77c9d6792b1c7ce816cf420d8641c6",
+  "originHash" : "b69a02abb38181a4621fc2a1e106ed046b47f859cadc3930165870c358676e90",
   "pins" : [
+    {
+      "identity" : "sifliocore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OpenSiFli/SifliOCore.git",
+      "state" : {
+        "revision" : "8e071fdfeb9ee838d70a4e1f7b397e088c2a5ac6",
+        "version" : "1.0.11"
+      }
+    },
     {
       "identity" : "sifliotamanagersdk",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/OpenSiFli/SifliOTAManagerSDK.git",
       "state" : {
-        "revision" : "83ad83bc2a2e50ac21f4a070e8750c4e256576ba",
-        "version" : "1.2.35"
+        "revision" : "1463a9ba706eb261072c0329301a209856232355",
+        "version" : "1.3.1"
       }
     },
     {
-      "identity" : "zip",
+      "identity" : "sifliotasdk_ios",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/marmelroy/Zip.git",
+      "location" : "https://github.com/OpenSiFli/SifliOtaSDK_iOS.git",
       "state" : {
-        "revision" : "67fa55813b9e7b3b9acee9c0ae501def28746d76",
-        "version" : "2.1.2"
+        "revision" : "79323e8da1435fc325f3c15bff506ee8d4a7cf01",
+        "version" : "3.1.8"
+      }
+    },
+    {
+      "identity" : "zipfoundation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/weichsel/ZIPFoundation.git",
+      "state" : {
+        "revision" : "22787ffb59de99e5dc1fbfe80b19c97a904ad48d",
+        "version" : "0.9.20"
       }
     }
   ],
