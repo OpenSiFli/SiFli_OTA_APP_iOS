@@ -6,3 +6,6 @@ solution 2.0 ota demo
 
 ## SiFli-SDK OTA (Nor Offline)
 单文件传输，基于SifliOtaManagerSDK
+
+##  GUIBuilder SDK
+支持表盘编辑。
