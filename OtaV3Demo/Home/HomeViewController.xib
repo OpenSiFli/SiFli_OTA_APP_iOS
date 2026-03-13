@@ -37,6 +37,15 @@
                         <action selector="onOtaNorOfflineBtnTouch:" destination="-1" eventType="touchUpInside" id="Eso-vP-MMm"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iCR-p9-zdn">
+                    <rect key="frame" x="91" y="310" width="186" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="GUIBuilder"/>
+                    <connections>
+                        <action selector="onGUIBuilderBtnTouch:" destination="-1" eventType="touchUpInside" id="rE6-Kq-Sq8"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>

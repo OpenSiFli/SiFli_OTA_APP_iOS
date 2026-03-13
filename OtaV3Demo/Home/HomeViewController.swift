@@ -24,6 +24,13 @@ class HomeViewController: ViewController {
         let vc = OTAV3MainVC.init(nibName: "OTAV3MainVC", bundle: Bundle.main)
         self.navigationController?.pushViewController(vc, animated: true)
     }
+    
+    @IBAction func onGUIBuilderBtnTouch(_ sender: Any) {
+        let vc = GUIBuildeViewController.init();
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @IBOutlet weak var onGUIBuilderBtnTouch: UIButton!
     /*
     // MARK: - Navigation
 

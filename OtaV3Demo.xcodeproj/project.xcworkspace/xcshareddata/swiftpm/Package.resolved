@@ -1,13 +1,49 @@
 {
-  "originHash" : "b69a02abb38181a4621fc2a1e106ed046b47f859cadc3930165870c358676e90",
+  "originHash" : "0925d89452af15d89e93121fe61a4aaf6d8cec54909cacc3b006e8a526b7dc69",
   "pins" : [
+    {
+      "identity" : "brpickerview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/agiapp/BRPickerView.git",
+      "state" : {
+        "revision" : "c9e0e9813c1885467f353911cf58d92f5c989d1a",
+        "version" : "2.9.9"
+      }
+    },
+    {
+      "identity" : "ezipsdk_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OpenSiFli/eZIPSDK_ios.git",
+      "state" : {
+        "revision" : "aa2b374fc0002a21905d76ff12e0eb2ec5269282",
+        "version" : "2.4.5"
+      }
+    },
+    {
+      "identity" : "sfssziparchiveplugin",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OpenSiFli/SFSSZipArchivePlugin.git",
+      "state" : {
+        "revision" : "4f2852aafca808bcd446b29bc786f7a7c7955b8a",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "sifliguibuildersdk_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OpenSiFli/SifliGUIBuilderSDK_iOS.git",
+      "state" : {
+        "revision" : "f4b1707959807ea5cf9d4a28bb42f6c03d91df8c",
+        "version" : "1.0.1"
+      }
+    },
     {
       "identity" : "sifliocore",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/OpenSiFli/SifliOCore.git",
       "state" : {
-        "revision" : "8e071fdfeb9ee838d70a4e1f7b397e088c2a5ac6",
-        "version" : "1.0.11"
+        "revision" : "d2256ba527baa25f1926510e4417063e5289e63f",
+        "version" : "2.0.1"
       }
     },
     {
@@ -24,8 +60,26 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/OpenSiFli/SifliOtaSDK_iOS.git",
       "state" : {
-        "revision" : "79323e8da1435fc325f3c15bff506ee8d4a7cf01",
-        "version" : "3.1.8"
+        "revision" : "c4f9efa6ff9842d3bef94e00a3c667b54ae387e4",
+        "version" : "3.2.0"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "state" : {
+        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
+        "version" : "5.7.1"
+      }
+    },
+    {
+      "identity" : "tzimagepickercontroller",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/banchichen/TZImagePickerController.git",
+      "state" : {
+        "revision" : "87b704b1eadf9aa53172d0378066e30060f2b02e",
+        "version" : "3.8.12"
       }
     },
     {

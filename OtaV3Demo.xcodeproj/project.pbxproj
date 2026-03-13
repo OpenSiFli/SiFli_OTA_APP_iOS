@@ -59,6 +59,19 @@
 		181CAB2F2D34C9FD00212E8B /* ConsoleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181CAB2E2D34C9FD00212E8B /* ConsoleCell.swift */; };
 		188180E22ED8203100D833AE /* SifliOtaSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 188180E12ED8203100D833AE /* SifliOtaSDK */; };
 		188180E42ED8203600D833AE /* SifliOCore in Frameworks */ = {isa = PBXBuildFile; productRef = 188180E32ED8203600D833AE /* SifliOCore */; };
+		18C2B2A42F63B51A00DD069E /* MyWatchfaceEditItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C2B29F2F63B51A00DD069E /* MyWatchfaceEditItemTableViewCell.xib */; };
+		18C2B2A52F63B51A00DD069E /* GUIBuildeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B2A12F63B51A00DD069E /* GUIBuildeViewController.swift */; };
+		18C2B2A62F63B51A00DD069E /* MyWatchfaceEditItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B29C2F63B51A00DD069E /* MyWatchfaceEditItem.swift */; };
+		18C2B2A72F63B51A00DD069E /* MyWatchfaceEditItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B29E2F63B51A00DD069E /* MyWatchfaceEditItemTableViewCell.swift */; };
+		18C2B2A92F63B72700DD069E /* BRPickerView in Frameworks */ = {isa = PBXBuildFile; productRef = 18C2B2A82F63B72700DD069E /* BRPickerView */; };
+		18C2B2AB2F63B75A00DD069E /* SifliGUIBuilderSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 18C2B2AA2F63B75A00DD069E /* SifliGUIBuilderSDK */; };
+		18C2B2AD2F63B76000DD069E /* SFSSZipArchivePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 18C2B2AC2F63B76000DD069E /* SFSSZipArchivePlugin */; };
+		18C2B2B02F63B83700DD069E /* TZImagePickerController in Frameworks */ = {isa = PBXBuildFile; productRef = 18C2B2AF2F63B83700DD069E /* TZImagePickerController */; };
+		18C2B2B32F63B8B300DD069E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B2B22F63B8B300DD069E /* BaseViewController.swift */; };
+		18C2B2B62F63B90800DD069E /* SFColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B2B42F63B90800DD069E /* SFColor.swift */; };
+		18C2B2B92F63BA3400DD069E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 18C2B2B82F63BA3400DD069E /* SnapKit */; };
+		18C2B2BC2F63BAB000DD069E /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B2BB2F63BAB000DD069E /* UIDevice+Extension.swift */; };
+		18C2B2CB2F63BE3A00DD069E /* eZIPSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 18C2B2CA2F63BE3A00DD069E /* eZIPSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -165,6 +178,13 @@
 		181CAB272D34C9AA00212E8B /* OTAFileListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OTAFileListVC.xib; sourceTree = "<group>"; };
 		181CAB2C2D34C9D100212E8B /* FolderHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolderHelper.swift; sourceTree = "<group>"; };
 		181CAB2E2D34C9FD00212E8B /* ConsoleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleCell.swift; sourceTree = "<group>"; };
+		18C2B29C2F63B51A00DD069E /* MyWatchfaceEditItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWatchfaceEditItem.swift; sourceTree = "<group>"; };
+		18C2B29E2F63B51A00DD069E /* MyWatchfaceEditItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWatchfaceEditItemTableViewCell.swift; sourceTree = "<group>"; };
+		18C2B29F2F63B51A00DD069E /* MyWatchfaceEditItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyWatchfaceEditItemTableViewCell.xib; sourceTree = "<group>"; };
+		18C2B2A12F63B51A00DD069E /* GUIBuildeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GUIBuildeViewController.swift; sourceTree = "<group>"; };
+		18C2B2B22F63B8B300DD069E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		18C2B2B42F63B90800DD069E /* SFColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFColor.swift; sourceTree = "<group>"; };
+		18C2B2BB2F63BAB000DD069E /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,8 +193,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				188180E42ED8203600D833AE /* SifliOCore in Frameworks */,
+				18C2B2B92F63BA3400DD069E /* SnapKit in Frameworks */,
+				18C2B2AD2F63B76000DD069E /* SFSSZipArchivePlugin in Frameworks */,
+				18C2B2CB2F63BE3A00DD069E /* eZIPSDK in Frameworks */,
+				18C2B2A92F63B72700DD069E /* BRPickerView in Frameworks */,
 				188180E22ED8203100D833AE /* SifliOtaSDK in Frameworks */,
+				18C2B2B02F63B83700DD069E /* TZImagePickerController in Frameworks */,
 				18147EAC2ED81E5900CDCDD5 /* SifliOTAManagerSDK in Frameworks */,
+				18C2B2AB2F63B75A00DD069E /* SifliGUIBuilderSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +263,10 @@
 		181CAA742D34A4B400212E8B /* OtaV3Demo */ = {
 			isa = PBXGroup;
 			children = (
+				18C2B2BA2F63BA9E00DD069E /* Extensions */,
+				18C2B2B52F63B90800DD069E /* Color */,
+				18C2B2B12F63B89E00DD069E /* Base */,
+				18C2B2A32F63B51A00DD069E /* GUIBuilder */,
 				1807A05A2E5C5E86000C8823 /* Home */,
 				181CAB082D34C3AA00212E8B /* Utils */,
 				181CAB052D34C36100212E8B /* Components */,
@@ -466,6 +496,65 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		18C2B29D2F63B51A00DD069E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18C2B29C2F63B51A00DD069E /* MyWatchfaceEditItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18C2B2A02F63B51A00DD069E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18C2B29E2F63B51A00DD069E /* MyWatchfaceEditItemTableViewCell.swift */,
+				18C2B29F2F63B51A00DD069E /* MyWatchfaceEditItemTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18C2B2A22F63B51A00DD069E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18C2B2A12F63B51A00DD069E /* GUIBuildeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		18C2B2A32F63B51A00DD069E /* GUIBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				18C2B29D2F63B51A00DD069E /* Model */,
+				18C2B2A02F63B51A00DD069E /* View */,
+				18C2B2A22F63B51A00DD069E /* ViewController */,
+			);
+			path = GUIBuilder;
+			sourceTree = "<group>";
+		};
+		18C2B2B12F63B89E00DD069E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				18C2B2B22F63B8B300DD069E /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		18C2B2B52F63B90800DD069E /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				18C2B2B42F63B90800DD069E /* SFColor.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		18C2B2BA2F63BA9E00DD069E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				18C2B2BB2F63BAB000DD069E /* UIDevice+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -559,6 +648,12 @@
 				181BB1F62ED8190D006759E8 /* XCRemoteSwiftPackageReference "SifliOCore" */,
 				18147EAA2ED81E5900CDCDD5 /* XCRemoteSwiftPackageReference "SifliOTAManagerSDK" */,
 				188180DF2ED8200B00D833AE /* XCRemoteSwiftPackageReference "SifliOtaSDK_iOS" */,
+				186EFA922F62C5C90081CCC4 /* XCRemoteSwiftPackageReference "SFSSZipArchivePlugin" */,
+				18C2B2992F63B3DE00DD069E /* XCRemoteSwiftPackageReference "SifliGUIBuilderSDK_iOS" */,
+				18C2B29A2F63B4A100DD069E /* XCRemoteSwiftPackageReference "BRPickerView" */,
+				18C2B2AE2F63B7E100DD069E /* XCRemoteSwiftPackageReference "TZImagePickerController" */,
+				18C2B2B72F63B9FC00DD069E /* XCRemoteSwiftPackageReference "SnapKit" */,
+				18C2B2C92F63BDDD00DD069E /* XCRemoteSwiftPackageReference "eZIPSDK_ios" */,
 			);
 			productRefGroup = 181CAA732D34A4B400212E8B /* Products */;
 			projectDirPath = "";
@@ -578,6 +673,7 @@
 			files = (
 				181CAAF62D34C15700212E8B /* SVProgressHUD.bundle in Resources */,
 				181CAB1D2D34C8EA00212E8B /* DeviceListCell.xib in Resources */,
+				18C2B2A42F63B51A00DD069E /* MyWatchfaceEditItemTableViewCell.xib in Resources */,
 				181CAA822D34A4B500212E8B /* LaunchScreen.storyboard in Resources */,
 				181CAB2B2D34C9AA00212E8B /* OTAFileListVC.xib in Resources */,
 				181CAB2A2D34C9AA00212E8B /* OTAFileListCell.xib in Resources */,
@@ -611,16 +707,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				181CAB292D34C9AA00212E8B /* OTAFileListCell.swift in Sources */,
+				18C2B2BC2F63BAB000DD069E /* UIDevice+Extension.swift in Sources */,
 				181CAAF72D34C15700212E8B /* CovertVideoToImage.m in Sources */,
 				181CAB102D34C49A00212E8B /* QProgressBar.swift in Sources */,
 				181CAAE82D34C15700212E8B /* MJPropertyType.m in Sources */,
 				181CAAEC2D34C15700212E8B /* MJExtensionConst.m in Sources */,
+				18C2B2B32F63B8B300DD069E /* BaseViewController.swift in Sources */,
 				1807A05E2E5C5EF6000C8823 /* HomeViewController.swift in Sources */,
 				181CAA7A2D34A4B400212E8B /* ViewController.swift in Sources */,
 				181CAAF12D34C15700212E8B /* MJFoundation.m in Sources */,
 				1807A0622E5C6203000C8823 /* NorOfflineOTAMainVC.swift in Sources */,
 				181CAAEE2D34C15700212E8B /* NSObject+MJClass.m in Sources */,
 				181CAB282D34C9AA00212E8B /* OTAFileListVC.swift in Sources */,
+				18C2B2B62F63B90800DD069E /* SFColor.swift in Sources */,
 				181CAB122D34C50100212E8B /* SFLog.swift in Sources */,
 				181CAAE72D34C15700212E8B /* LMJDropdownMenu.m in Sources */,
 				181CAA762D34A4B400212E8B /* AppDelegate.swift in Sources */,
@@ -637,6 +736,9 @@
 				181CAB012D34C25E00212E8B /* OTAV3MainVC.swift in Sources */,
 				181CAB1E2D34C8EA00212E8B /* DeviceListCell.swift in Sources */,
 				181CAB192D34C87A00212E8B /* CBPeripheral+Extension.swift in Sources */,
+				18C2B2A52F63B51A00DD069E /* GUIBuildeViewController.swift in Sources */,
+				18C2B2A62F63B51A00DD069E /* MyWatchfaceEditItem.swift in Sources */,
+				18C2B2A72F63B51A00DD069E /* MyWatchfaceEditItemTableViewCell.swift in Sources */,
 				181CAAF22D34C15700212E8B /* SVRadialGradientLayer.m in Sources */,
 				181CAABD2D34BB0A00212E8B /* LMJDropdownMenu.m in Sources */,
 				181CAAED2D34C15700212E8B /* NSObject+MJProperty.m in Sources */,
@@ -837,6 +939,7 @@
 				INFOPLIST_FILE = OtaV3Demo/Info.plist;
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "蓝牙测试";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "位置使用";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "打开相册";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -849,6 +952,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sifli.OtaV3Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -875,6 +979,7 @@
 				INFOPLIST_FILE = OtaV3Demo/Info.plist;
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "蓝牙测试";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "位置使用";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "打开相册";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -887,6 +992,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sifli.OtaV3Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1026,16 +1132,64 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/OpenSiFli/SifliOCore.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.11;
+				kind = exactVersion;
+				version = 2.0.1;
+			};
+		};
+		186EFA922F62C5C90081CCC4 /* XCRemoteSwiftPackageReference "SFSSZipArchivePlugin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OpenSiFli/SFSSZipArchivePlugin.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.1;
 			};
 		};
 		188180DF2ED8200B00D833AE /* XCRemoteSwiftPackageReference "SifliOtaSDK_iOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/OpenSiFli/SifliOtaSDK_iOS.git";
 			requirement = {
+				kind = exactVersion;
+				version = 3.2.0;
+			};
+		};
+		18C2B2992F63B3DE00DD069E /* XCRemoteSwiftPackageReference "SifliGUIBuilderSDK_iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OpenSiFli/SifliGUIBuilderSDK_iOS.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.1;
+			};
+		};
+		18C2B29A2F63B4A100DD069E /* XCRemoteSwiftPackageReference "BRPickerView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/agiapp/BRPickerView.git";
+			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.1.8;
+				minimumVersion = 2.9.9;
+			};
+		};
+		18C2B2AE2F63B7E100DD069E /* XCRemoteSwiftPackageReference "TZImagePickerController" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/banchichen/TZImagePickerController.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.8.12;
+			};
+		};
+		18C2B2B72F63B9FC00DD069E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		18C2B2C92F63BDDD00DD069E /* XCRemoteSwiftPackageReference "eZIPSDK_ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OpenSiFli/eZIPSDK_ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.5;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -1055,6 +1209,36 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 181BB1F62ED8190D006759E8 /* XCRemoteSwiftPackageReference "SifliOCore" */;
 			productName = SifliOCore;
+		};
+		18C2B2A82F63B72700DD069E /* BRPickerView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18C2B29A2F63B4A100DD069E /* XCRemoteSwiftPackageReference "BRPickerView" */;
+			productName = BRPickerView;
+		};
+		18C2B2AA2F63B75A00DD069E /* SifliGUIBuilderSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18C2B2992F63B3DE00DD069E /* XCRemoteSwiftPackageReference "SifliGUIBuilderSDK_iOS" */;
+			productName = SifliGUIBuilderSDK;
+		};
+		18C2B2AC2F63B76000DD069E /* SFSSZipArchivePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 186EFA922F62C5C90081CCC4 /* XCRemoteSwiftPackageReference "SFSSZipArchivePlugin" */;
+			productName = SFSSZipArchivePlugin;
+		};
+		18C2B2AF2F63B83700DD069E /* TZImagePickerController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18C2B2AE2F63B7E100DD069E /* XCRemoteSwiftPackageReference "TZImagePickerController" */;
+			productName = TZImagePickerController;
+		};
+		18C2B2B82F63BA3400DD069E /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18C2B2B72F63B9FC00DD069E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		18C2B2CA2F63BE3A00DD069E /* eZIPSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18C2B2C92F63BDDD00DD069E /* XCRemoteSwiftPackageReference "eZIPSDK_ios" */;
+			productName = eZIPSDK;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
